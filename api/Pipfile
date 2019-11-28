@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+flask = "*"
+configparser = "*"
+flask-mysql = "*"
+flask-restful = "*"
+requests = "*"
+
+[requires]
+python_version = "3.5"
